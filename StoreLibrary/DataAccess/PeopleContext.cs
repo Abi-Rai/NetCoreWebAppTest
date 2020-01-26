@@ -17,6 +17,7 @@ namespace StoreLibrary.DataAccess
         public DbSet<CartItem> ShoppingCartItems { get; set; }
 
         public DbSet<ProductsBought> ProductsBoughts { get; set; }
+        public DbSet<ShoePromo> ShoesMatched { get; set; }
         
     }
 }

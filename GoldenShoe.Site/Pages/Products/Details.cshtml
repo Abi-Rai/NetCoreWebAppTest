@@ -10,38 +10,6 @@
 @*  If valid ID is passed do  *@
 @if (Model.validId == true)
 {
-
-    @*-------------TODO Move style to Css file after editing --------------*@
-    <style>
-        .wrapper {
-            background: #eee;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            grid-auto-rows: minmax(100px,auto);
-            grid-gap: 1em;
-        }
-
-            .wrapper > div {
-                padding: 1em;
-            }
-
-        .image-box {
-            grid-column: 1/2;
-            grid-row: 1/3;
-        }
-
-        .product-description-box {
-            background-color: #808080;
-            align-items: center;
-            grid-column: 2;
-            grid-row: 1/3;
-        }
-
-        .product-promo {
-            grid-column: 1/3;
-        }
-    </style>
-
     <div class="wrapper">
         <div class="image-box">
             <figure>
@@ -85,13 +53,39 @@
 
             </section>
         </div>
-        <div class="product-promo">
-            <h4>Product promo image placeholder</h4>
-            <svg width="620" height="200" style="background:#9b9999">
-                <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" />
-                <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" x="210" />
-                <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" x="420" />
-            </svg>
+    </div>
+    @*--- using partial view ** not implemented partial view ------ *@
+    @*<partial name="_promoShoe" model="Model.ShoePromos" />*@
+    <hr />
+    <div class="container-fluid text-center">
+        <div class="row w-50 h-50">
+
+            @if (Model.Promo == true)
+            {
+                <h5>Customers that bought this, also bought this.</h5>
+                @foreach (var item in Model.ShoePromos)
+                {
+
+                    <div class="col-sm-4 col-sm-push-8">
+                        <div class="selected">
+                            <a href="/Products/Details?ProductId=@item.SelectPromoProduct.ShoeID" style="text-decoration:none;color:rgb(101, 99, 99)"><img class="img-fluid" src="@item.SelectPromoProduct.ImgUrl" alt="" />@item.SelectPromoProduct.Name</a>
+                        </div>
+                    </div>
+
+                }
+            }
+            else
+            {
+                <div class="product-promo">
+                    <h4>Product promo image placeholder</h4>
+                    <svg width="620" height="200" style="background:#9b9999">
+                        <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" />
+                        <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" x="210" />
+                        <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" x="420" />
+                    </svg>
+                </div>
+            }
+            <hr />
         </div>
     </div>
 }

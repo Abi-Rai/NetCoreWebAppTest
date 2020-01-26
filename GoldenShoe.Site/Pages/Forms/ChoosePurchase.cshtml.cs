@@ -78,9 +78,9 @@ namespace GoldenShoe.Site
             }
             
             Requests.OrderId = purchases.Select(x => x.OrderId).FirstOrDefault().ToString();
-            //Requests.RequestID = DateTime.Now.Ticks.ToString();
+            Requests.RequestID = DateTime.Now.Ticks.ToString();
             _context.Requests.Add(Requests);
-           // await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
 
             return RedirectToPage("./SupportIndex");
         }

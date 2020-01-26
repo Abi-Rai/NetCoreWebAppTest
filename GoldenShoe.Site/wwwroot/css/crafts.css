@@ -233,6 +233,38 @@ ul {
     opacity: 1;
 }
 
-/* Product details page boxes
+/* Product details page styles
 -------------------------------------------------- */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 1em;
+}
 
+    .wrapper > div {
+        padding: 1em;
+    }
+
+.image-box {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.product-description-box {
+    background-color: #eee;
+    align-items: center;
+    align-content: center;
+    grid-column: 2;
+    grid-row: 1/3;
+}
+
+.product-promo {
+    grid-column: 1/3;
+}
+
+
+.selected:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(37,33,82,.12), 0 4px 8px rgba(37,33,82,.06);
+}

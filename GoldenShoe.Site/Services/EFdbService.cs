@@ -21,8 +21,7 @@ namespace GoldenShoe.Site.Services
         private Product selectedProduct;
         public List<Product> productsToAdd { get; set; }
 
-        public const string CartSessionKey = "CartItem";
-
+        public const string CartSessionKey = "CartItem"; 
 
         public EFdbService(PeopleContext db)
         {
@@ -52,6 +51,45 @@ namespace GoldenShoe.Site.Services
             return db.Requests;
         }
 
+        // Logic for shoe promos, 
+        public List<ShoePromo> GetShoePromos(string id)
+        {
+
+            List<string> tempOrderID = new List<string>();
+            var query = db.ProductsBoughts;
+
+            foreach (var item in query)
+            {
+                if (item.ShoeID == id) // if any of the pruchases has the selected shoes id
+                {
+                    tempOrderID.Add(item.OrderIDref); // save the order id of the matching shoeID to temp list
+                }
+            }
+            List<string> distinctOrderID = tempOrderID.Distinct().ToList(); // remove reapeating orderIDS
+            
+            List<ShoePromo> promoProducts = new List<ShoePromo>(); // initialise new list of promo products
+
+            foreach (var item in distinctOrderID)
+            {
+                foreach (var product in query)
+                {
+                    if (product.OrderIDref == item && product.ShoeID != id) // if the order id matches the checked orderid excluding the product being checked
+                    {
+                        promoProducts.Add(  // add the shoe id of the matched products to the ShoeIdMatch string on ShoePromo class
+                            new ShoePromo
+                            {
+                                ShoeIdMatch = product.ShoeID
+                            });
+                    }
+                }
+            }
+            if (distinctOrderID.Count() >= 3) // only return the products if there are 3 matches, else return null
+            {
+                return promoProducts; 
+            }
+            return null; 
+        }
+
         public void ChangeStock(string shoeID, int amount)
         {
             selectedProduct = db.Products.Where(e => e.ShoeID == shoeID).FirstOrDefault();
@@ -65,7 +103,7 @@ namespace GoldenShoe.Site.Services
                 DateCreated = DateTime.Now,
                 OrderId = DateTime.Now.Ticks.ToString(),
                 TotalPaid = total,
-               
+
                 //Products = cartItems.Select(e => e.Product).ToList()
             };
 
