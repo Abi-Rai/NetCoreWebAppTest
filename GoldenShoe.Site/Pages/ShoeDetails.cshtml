@@ -1,0 +1,14 @@
+﻿@page
+@using GoldenShoe.Site.Components
+
+@model GoldenShoe.Site.ShoeDetailsModel
+@{
+    ViewData["Title"] = "ShoeDetails";
+}
+
+<h2>ShoeDetails</h2>
+<Componentname param-ProductId="@Model.ProductId"></Componentname>
+@(await Html.RenderComponentAsync<DetailsList>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"><</script>
+

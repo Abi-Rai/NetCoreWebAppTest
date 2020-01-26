@@ -1,0 +1,8 @@
+F:\ANDdigitalCase\StoreLibrary\bin\Debug\netstandard2.0\StoreLibrary.deps.json
+F:\ANDdigitalCase\StoreLibrary\bin\Debug\netstandard2.0\StoreLibrary.dll
+F:\ANDdigitalCase\StoreLibrary\bin\Debug\netstandard2.0\StoreLibrary.pdb
+F:\ANDdigitalCase\StoreLibrary\obj\Debug\netstandard2.0\StoreLibrary.csprojAssemblyReference.cache
+F:\ANDdigitalCase\StoreLibrary\obj\Debug\netstandard2.0\StoreLibrary.AssemblyInfoInputs.cache
+F:\ANDdigitalCase\StoreLibrary\obj\Debug\netstandard2.0\StoreLibrary.AssemblyInfo.cs
+F:\ANDdigitalCase\StoreLibrary\obj\Debug\netstandard2.0\StoreLibrary.dll
+F:\ANDdigitalCase\StoreLibrary\obj\Debug\netstandard2.0\StoreLibrary.pdb

@@ -1,0 +1,24 @@
+﻿@page
+@using GoldenShoe.Site.Components
+
+@model GoldenShoe.Site.StoreModel
+@{
+    ViewData["Title"] = "Store";
+}
+<h1>Store</h1>
+    @*<div class="card-columns">
+        @foreach (var shoe in Model.ShoesOnly)
+        {
+            <div class="card">
+                <div class="card-img" style="background-image:url('@shoe.ImgUrl');"></div>
+               
+                <div class="card-body"><h5>@shoe.Name</h5></div>
+
+                <div class="card-body"><p>@shoe.Name2 <br /> £@shoe.Price</p></div>
+            </div>
+        }
+    </div>*@
+
+@(await Html.RenderComponentAsync<ShoesList>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"><</script>

@@ -1,0 +1,86 @@
+﻿@page
+@model GoldenShoe.Site.CartModel
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+@if (Model.cartItems != null && Model.cartItems.Count() != 0)
+{
+    <h3>Cart</h3>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="row">#</th>
+                <th>Remove</th>
+                <th>Product</th>
+
+                <th>ShoeId</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total <sup>Quantity x Price:</sup> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.cartItems)
+            {
+                <tr>
+                    <th scope="row">1</th>
+                    <td align="center">
+                        <a asp-page="/cart" asp-page-handler="delete" asp-route-id="@item.Product.ShoeID">X</a>
+                    </td>
+                    <td ><img src="@item.Product.ImgUrl" style="width:100px;height:100px;"/></td>
+                    <td>@item.ShoeId</td>
+                    <td><h4>@item.Quantity</h4></td>
+                    <td>&pound;@item.Product.Price</td>
+                    <td>&pound;@(Convert.ToInt32((item.Product.Price)) * @item.Quantity)</td>
+                </tr>
+            }
+
+            <tr>
+                <th colspan="6"></th>
+                <td colspan="1">Total: &pound;@Model.Total</td>
+            </tr>
+            <tr>
+                <th colspan="6"></th>
+                <td><span type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmPurchase">Purchase</span></td>
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>Cart Empty</h1>
+}
+
+@*<div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmPurchase">Clear all ratings</button>
+</div>*@
+
+<!--Modal: modalConfirmPurchase-->
+
+<div class="modal fade" id="modalConfirmPurchase" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+        <!--Content-->
+        <div class="modal-content text-center">
+            <!--Header-->
+            <div class="modal-header d-flex justify-content-center">
+                <i class="far fa-credit-card"></i>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <p class="heading"><strong>Confirm Purchase?</strong></p>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+                <a a asp-page="/cart" asp-page-handler="Purchase"class="btn  btn-outline-danger">Yes</a>
+                <a href="" type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<a asp-page="store">Continue Shopping</a>

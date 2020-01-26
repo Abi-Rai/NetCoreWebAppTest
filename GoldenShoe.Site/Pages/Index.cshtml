@@ -1,0 +1,61 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@*TODO add collection of some sort to save the name, the original price and reduced price of shoe*@
+
+
+
+
+@*------------------ TODO MOVE STYLE TO CSS AFTER EDITING --------------------*@
+<style>
+    .jumbotron {
+        background-color: #9d3e3e;
+        color: #ffffff;
+    }
+</style>
+
+
+@*<div class="home-image-container">
+        <img class="home-image" src="https://i1.adis.ws/i/dunelondon/CHALLISH-0474510790001509_MAIN?$detail-responsive$&img404=404&v=1" />
+        <h1 class="home-promo"><span style="box-shadow: inset 5px 0 5px -5px #29627e;">Challis H - Brown </span></h1>
+        <h3 class="home-promo">On sale now,Original Price</h3>
+    </div>*@
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-2"><span style="color:#f3d832">G</span>olden <span style="color:#f3d832">S</span>hoe</h1>
+        <blockquote class="blockquote text-center">
+            <p class="mb-0"><s>></s> Style for any occasion <s><</s></p>
+        </blockquote>
+    </div>
+</div>
+<footer class="blockquote-footer text-right">First thing I step into <cite title="Source Title">  Celebrity #123</cite></footer>
+<div class="container-fluid text-center bg-grey">
+
+    <hr />
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="https://i1.adis.ws/i/dunelondon/FUTURISMTENN-0504506460212484_ALT4?$listings-responsive$" alt="Shoe1">
+                <p><strong>FUTURISM TENN - BLACK</strong></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="https://i1.adis.ws/i/dunelondon/COMISTON-0474503730006484_ALT4?$listings-responsive$" alt="Shoe2">
+                <p><strong>COMISTON - BLACK</strong></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="https://i1.adis.ws/i/dunelondon/MILLING-0477504340010509_ALT4?$listings-responsive$" alt="Shoe3">
+                <p><strong>MILLING - BROWN</strong></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>

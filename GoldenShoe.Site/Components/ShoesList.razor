@@ -1,0 +1,237 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using GoldenShoe.Site.Models
+@using GoldenShoe.Site.Services
+@using GoldenShoe.Site.Helpers
+@using Microsoft.AspNetCore.Http;
+
+@inject JsonFileShoesService ShoeService
+@inject JsonFileReviewsService ReviewService
+@inject EFdbService dbService
+
+
+@* ******** Button to clear existing ratings ********* BUG: Need to review json file after executing
+
+    <div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Clear all ratings</button>
+    </div>
+*@
+
+
+<div class="card-columns">
+    @foreach (var shoe in ShoeService.GetShoesOnly())
+    {
+        <div class="card">
+            <a href="/Products/Details?ProductId=@shoe.Id" style="text-decoration:none;color:black;">
+                @if (shoe.OnSale == "True")
+                {
+                    <span class="product-sale-label">Sale</span>
+                }
+                <div class="card-img" style="background-image:url('@shoe.ImgUrl');"></div>
+                <div class="card-body"><h5>@shoe.Name</h5></div>
+                <div class="card-body">
+                    @shoe.Name2 <div class="mouse-over"><i class="fas fa-angle-double-up"> <span style="font-family:'Nunito',sans-serif;">Quick &nbsp</span></i><i class="fas fa-angle-double-up"></i></div>
+                    @if (shoe.OnSale == "True")
+                    {
+
+                        <span class="font-weight-bold"><strike>£@shoe.OriginalPrice</strike><span style="color:red"> £@shoe.Price</span></span>
+
+                    }
+                    else
+                    {
+                        <span class="font-weight-bold">£@shoe.Price</span>
+                    }
+                </div>
+                <div class="card-body"></div>
+            </a>
+        </div>
+
+        <div class="card-footer">
+            <div class="col">
+                <ul class="social">
+                    <li><a style="cursor:pointer;" @onclick="(e => SelectShoe(shoe.Id))" data-toggle="modal" data-target="#productModal" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    @*<li><a style="cursor:pointer;" @onclick="(e => SelectShoe(shoe.Id))" data-toggle="modal" data-target="#productModal" data-tip="Quick View"><i class="fa fa-shopping-bag"></i></a></li>*@
+                    @*<li><a style="cursor:pointer;" asp-page="/cart" asp-page-handler="BuyNow" asp-route-id="@shoe.Id"><i class="fa fa-shopping-cart"></i></a></li>*@
+                    <li><a href="/Cart?id=@shoe.Id&handler=BuyNow" style="cursor:pointer;" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+
+                </ul>
+            </div>
+            @*more info button placeholder*@
+            @*<small class="text-muted">
+                    <button @onclick="(e => SelectShoe(shoe.Id))" data-toggle="modal" data-target="#productModal" class="btn-info">More Info</button>
+                </small>*@
+        </div>
+    }
+
+</div>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Modal: modalConfirmDelete-->
+<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+        <!--Content-->
+        <div class="modal-content text-center">
+            <!--Header-->
+            <div class="modal-header d-flex justify-content-center">
+                <p class="heading">Are you sure?</p>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+
+                <i class="fas fa-times fa-4x animated rotateIn"></i>
+
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+                <a @onclick="(e => ReviewService.ClearAllRatings())" class="btn  btn-outline-danger">Yes</a>
+                <a href="" type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!--Modal: modalConfirmDelete-->
+@*If more info button is pressed*@
+@if (selectShoe != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectShoe.Name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@selectShoe.ImgUrl');">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Category: @selectShoe.Category</p>
+                            <p class="card-text">Variant: @selectShoe.Variant</p>
+                        </div>
+                    </div>
+                    @if (selectShoe.OnSale == "True")
+                    {
+                        <div class="card-body">
+                            <p class="pop-up-price"><strike>£@selectShoe.OriginalPrice</strike><span style="color:red"> £@selectShoe.Price</span></p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="card-body"><p class="pop-up-price">£@selectShoe.Price</p></div>
+                    }
+                    @*  TODO    Add to cart and quick buy buttons.*@
+                    <button class="btn-primary">Add to Cart</button>
+                    &nbsp;
+                    <a href="/Products/Details?ProductId=@selectShoe.Id" style="color:black;">View full product page</a>
+                </div>
+                <div class="modal-footer">
+                    @if (voteCount == 0)
+                    {
+                        <span>No votes yet, be the first!</span>
+                    }
+                    else
+                    {
+                        <span>@voteCount @voteLabel</span>
+                    }
+
+                    @for (int i = 1; i <= 5; i++)
+                    {
+                        var currentStar = i;
+                        if (i <= currentRating)
+                        {
+                            <span class="fa-star fa checked" @onclick="(e =>SubmitRating(currentStar))"> </span>
+                        }
+                        else
+                        {
+                            <span class="fa-star fa" @onclick="(e =>SubmitRating(currentStar))"> </span>
+                        }
+                    }
+                    <small class="text-muted">
+                        @if (selectShoeReview.ReviewsText == null)
+                        {
+                            <span>No reviews yet, be the first!</span>
+                        }
+                        else
+                        {
+                            <button class="btn-info">Show reviews</button>
+                        }
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    ShoesOnly selectShoe;
+    string selectShoeId;
+    public const string CartSessionKey = "CartItem";
+
+
+
+    void SelectShoe(string shoeId)
+    {
+        selectShoeId = shoeId;
+        selectShoe = ShoeService.GetShoesOnly().First(x => x.Id == shoeId);
+        SelectReview(shoeId);
+    }
+
+
+
+    Reviews selectShoeReview;
+    string selectShoeReviewId;
+
+    void SelectReview(string shoeId)
+    {
+        selectShoeReviewId = shoeId;
+        selectShoeReview = ReviewService.GetReviews().First(x => x.Id == shoeId);
+        GetCurrentRating();
+
+    }
+
+    int currentRating = 0;
+    int voteCount = 0;
+    string voteLabel;
+
+    void GetCurrentRating()
+    {
+        if (selectShoeReview.Ratings == null)
+        {
+            currentRating = 0;
+            voteCount = 0;
+        }
+        else
+        {
+            voteCount = selectShoeReview.Ratings.Count();
+            voteLabel = voteCount > 1 ? "Votes" : "Vote";
+            currentRating = selectShoeReview.Ratings.Sum() / voteCount;
+        }
+
+        System.Console.WriteLine($"Current rating for {selectShoeReview.Position}: {currentRating}");
+    }
+
+   
+    List<string> reviewsToDisplay = new List<string>();
+
+    void AddToCart()
+    {
+
+    }
+
+    void SubmitRating(int rating)
+    {
+        System.Console.WriteLine($"Rating received for {selectShoeReview.Position}: {rating}");
+        ReviewService.AddRating(selectShoeReviewId, rating);
+        SelectReview(selectShoeReviewId);
+    }
+
+}

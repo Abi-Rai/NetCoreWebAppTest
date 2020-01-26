@@ -1,0 +1,78 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using GoldenShoe.Site.Models
+@using GoldenShoe.Site.Services
+@using StoreLibrary.Models
+
+
+@page "/ShoeDetails/{ProductId}"
+
+@inject EFdbService eFdb
+
+
+<h1>@ProductId</h1>
+
+@if (validId == true)
+{
+    <h3>Success</h3>
+    <h4>@shoeSelectedDB.Name</h4>
+    <h4>@shoeSelectedDB.Id</h4>
+
+}
+else if (validId == false)
+{
+    <h3>Failed</h3>
+}
+else
+{
+    throw new IndexOutOfRangeException();
+}
+
+
+
+
+
+
+@code {
+    [Parameter]
+    public string ProductId { get; set; }
+
+
+    private bool validId { get; set; }
+    private Product shoeSelectedDB { get; set; }
+
+    protected override void OnInitialized()
+    {
+        ProductId = ProductId ?? "Fantastic";
+    }
+    
+
+
+    //public DetailsList()
+    //{
+    //    BindPropertyAttribute
+
+    //    if (string.IsNullOrWhiteSpace(ProductId))
+    //    {
+    //        ProductId = "Invalid Id";
+    //        validId = false;
+    //    }
+    //    else
+    //    {
+    //        shoeSelectedDB = eFdb.GetProducts()
+    //        .Where(x => x.ShoeID == ProductId)
+    //        .FirstOrDefault<Product>();
+    //        // if product id is a valid id then do
+    //        if (shoeSelectedDB != null)
+    //        {
+    //            validId = true;
+    //        }
+    //        else
+    //        {
+    //            ProductId = "Invalid Id";
+    //            validId = false;
+    //        }
+    //    }
+    //}
+    public int whateverVal = 5;
+
+}

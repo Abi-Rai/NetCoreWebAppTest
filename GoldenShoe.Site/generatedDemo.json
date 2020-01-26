@@ -1,0 +1,555 @@
+[
+  {
+    "CustomerInfo": "Mack Mueller",
+    "Purchases": [
+      {
+        "Product": [
+          {
+            "ShoeID": "5e272bbe655eebf55ebd3dc9",
+            "Stock": 9,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Aliqua fugiat sunt id Lorem incididunt deserunt laborum velit laborum officia. Quis in laborum eiusmod eu eiusmod ex aliquip. Nisi eu reprehenderit adipisicing veniam laboris reprehenderit nulla voluptate officia. Deserunt amet anim id elit nostrud nostrud aute exercitation cupidatat aute. Duis dolor id fugiat aliquip id Lorem cillum. Anim non fugiat ea qui consectetur dolor sit consectetur enim consectetur veniam ad exercitation. Ut irure voluptate Lorem ea sit commodo labore occaecat ut pariatur enim.\r\n"
+              },
+              {
+                "Rating": 4,
+                "ReviewsText": "Elit occaecat cillum qui eiusmod. Eu velit esse consequat culpa laboris mollit exercitation aliquip excepteur. Est id aute eu ea minim id do mollit consectetur.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe3a307c2a83cb67fe",
+            "Stock": 10,
+            "Reviews": [
+              {
+                "Rating": 1,
+                "ReviewsText": "Ea ea adipisicing fugiat eu dolore ullamco in nisi consectetur. Fugiat consequat elit adipisicing laboris ullamco minim. Adipisicing et est labore incididunt officia ut eu consequat velit. Ea sunt duis tempor do commodo adipisicing incididunt adipisicing.\r\n"
+              },
+              {
+                "Rating": 3,
+                "ReviewsText": "Aute non nisi ea sunt consequat. Culpa proident ullamco exercitation ut deserunt. Aliquip et proident deserunt eu commodo sit fugiat ex id veniam.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe56036d5a4d0b9e45",
+            "Stock": 14,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Consectetur anim dolor fugiat veniam. Aliquip fugiat labore incididunt ex proident aliqua. Culpa do nulla aute proident ullamco fugiat adipisicing deserunt. Commodo duis enim quis dolore sunt.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Fugiat irure exercitation adipisicing excepteur anim quis labore aliquip minim non in in sunt. Consequat sit amet do non elit esse laboris non nostrud occaecat tempor sit. Pariatur non do eiusmod nisi amet quis est et dolore anim Lorem.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbea77679044fbc5ba1",
+            "Stock": 11,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Do amet minim nisi non quis ad esse eiusmod aliqua in minim nulla occaecat Lorem. Ad sit magna ut quis cupidatat laboris cupidatat occaecat ex. Sint Lorem voluptate labore laboris eu est.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Occaecat consequat veniam Lorem ipsum velit nostrud id irure do laborum aliqua. Adipisicing in pariatur dolore mollit adipisicing. Enim exercitation id voluptate sit cupidatat quis dolor consequat nostrud non duis et laborum magna. Sunt cillum esse esse incididunt excepteur irure deserunt nostrud. Eu sunt laboris velit eu enim labore nulla.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe61fcf7c456b136d6",
+            "Stock": 15,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Laborum id non esse commodo dolor est aliqua proident nisi irure consectetur. Cupidatat anim amet laboris ullamco id exercitation deserunt. Sunt officia dolore in in duis eiusmod nostrud. Veniam magna aliquip elit ad occaecat nulla officia Lorem aliqua qui est ex ex. Cillum qui aliquip nostrud mollit commodo in tempor tempor qui ut dolore sit veniam nulla. Laborum incididunt velit eiusmod fugiat adipisicing proident in.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Eu non cupidatat veniam sunt. In ea ex consectetur sunt reprehenderit cillum cupidatat reprehenderit pariatur cupidatat velit dolore nulla. Adipisicing velit nulla aliquip incididunt reprehenderit labore eu aute adipisicing. In amet do esse eu laboris fugiat sit velit sit pariatur dolor aliqua non. Sunt nostrud occaecat culpa reprehenderit deserunt. Enim fugiat adipisicing adipisicing nisi dolor veniam aliquip ad do sint officia aliquip anim ea. Lorem veniam occaecat sit ullamco irure.\r\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CustomerInfo": "Wiggins Avila",
+    "Purchases": [
+      {
+        "Product": [
+          {
+            "ShoeID": "5e272bbe904b935dc8e5aba1",
+            "Stock": 9,
+            "Reviews": [
+              {
+                "Rating": 5,
+                "ReviewsText": "Aliquip proident do labore deserunt laboris sint id dolore. Incididunt mollit id dolore voluptate enim commodo exercitation. Laborum veniam ut aliquip enim amet exercitation proident culpa incididunt ut. Labore esse consequat dolor mollit culpa elit ad veniam reprehenderit.\r\n"
+              },
+              {
+                "Rating": 3,
+                "ReviewsText": "Dolor nisi voluptate dolore velit non consectetur laborum aliqua aliquip nulla velit. Ut commodo id nulla in do mollit ipsum ea labore ut consequat esse reprehenderit. Elit excepteur in elit do sunt proident velit ea aliqua sint ea. Incididunt dolore non culpa nostrud officia et aute voluptate exercitation.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe0876ad676b3001a3",
+            "Stock": 15,
+            "Reviews": [
+              {
+                "Rating": 2,
+                "ReviewsText": "Aute consequat aliqua ipsum esse pariatur tempor eu duis occaecat irure sint veniam officia. Ad non veniam veniam reprehenderit ullamco ullamco. Et consectetur consequat in occaecat aliqua sit. Eu eiusmod est enim ut ad laboris aliquip quis sint excepteur velit. Incididunt sit qui est sit officia mollit dolore ad exercitation nulla magna sit cupidatat. Ipsum dolor ea duis aliqua aute ullamco commodo. Deserunt nostrud ea do qui cillum cillum ad laborum qui nostrud laboris sunt aliqua.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Eu laboris fugiat minim laboris consectetur est Lorem anim. Minim ipsum dolor nisi non dolore do irure anim proident nulla reprehenderit voluptate minim. Excepteur ea consequat dolore in velit culpa. Adipisicing qui cupidatat anim irure pariatur sunt qui reprehenderit. Dolore nisi laboris ut ipsum. Sit tempor excepteur nostrud ex ex duis laborum.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe2c500454136185f5",
+            "Stock": 8,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Aliquip consequat voluptate reprehenderit laboris et cillum deserunt aliqua fugiat. Consequat tempor incididunt laboris aliquip mollit qui in non magna officia. Ea dolor est id aliqua minim minim sint officia officia fugiat ipsum. Ut minim commodo cupidatat occaecat sunt Lorem adipisicing excepteur. Laborum eiusmod cillum laborum sunt et et officia id do officia. Consectetur consectetur fugiat cupidatat do commodo laborum veniam nostrud esse dolore ad cillum.\r\n"
+              },
+              {
+                "Rating": 4,
+                "ReviewsText": "Nulla ex occaecat est officia. Officia mollit enim velit in laborum veniam qui aliquip. Exercitation quis nostrud est anim cupidatat amet elit elit voluptate pariatur. Consectetur aliqua esse ea laboris deserunt. Consectetur magna adipisicing aliquip reprehenderit tempor elit proident est irure in irure. Officia amet consequat dolor qui voluptate cupidatat officia incididunt veniam irure et voluptate ea. Sit sunt laborum et eu commodo sunt mollit nostrud qui id.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe66abafdc9b71a916",
+            "Stock": 10,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Magna occaecat labore id duis ea duis minim veniam anim sunt ad ullamco. Exercitation in mollit et deserunt incididunt commodo id qui. Qui veniam proident esse quis incididunt velit ea eiusmod ea pariatur dolor id officia cupidatat. Cupidatat tempor non dolor velit Lorem.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Elit exercitation deserunt cillum aliquip ex officia in qui. Labore in irure enim ad quis voluptate reprehenderit minim sunt quis laborum. Pariatur quis magna mollit minim minim officia aute. Sint dolor id enim esse cillum. Dolor do sint irure excepteur consectetur nisi. Sint nisi mollit elit aute tempor labore ullamco minim ad veniam pariatur. Laborum commodo velit magna aliqua excepteur.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbeedc23c8287a20ce1",
+            "Stock": 14,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Pariatur nisi velit ut tempor dolore nostrud. Eu velit fugiat in dolor eu. Elit eu qui officia exercitation. Ex non adipisicing Lorem Lorem sint labore ut commodo cillum et. Dolor quis enim non officia duis ex.\r\n"
+              },
+              {
+                "Rating": 4,
+                "ReviewsText": "Ad deserunt veniam nulla nulla exercitation reprehenderit ea consequat consectetur. Eiusmod anim proident culpa irure aliqua magna. Ullamco id tempor nisi Lorem excepteur. Incididunt laboris velit ut mollit non adipisicing ex sunt culpa ut ex nostrud labore aute.\r\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CustomerInfo": "Ramsey Ferguson",
+    "Purchases": [
+      {
+        "Product": [
+          {
+            "ShoeID": "5e272bbed1c16ef7722d6d12",
+            "Stock": 9,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Commodo officia do ex occaecat sunt aute sint ea. Dolore Lorem aliqua magna laboris. Occaecat officia exercitation irure fugiat voluptate. Esse labore amet dolor irure irure irure dolore minim. Cupidatat nisi qui velit dolor aliqua est officia reprehenderit Lorem ad. Labore elit deserunt adipisicing cupidatat culpa occaecat nisi.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Nostrud ea ut anim nisi anim pariatur excepteur consectetur commodo cillum ea dolore ullamco eu. Eu consequat esse pariatur dolore irure dolor. Ea eu deserunt veniam eu adipisicing sit do eiusmod magna. Dolor enim eiusmod deserunt est veniam qui esse fugiat veniam esse aliquip ad et. Anim ea magna aliquip ut aliquip fugiat cillum excepteur ullamco. Nulla deserunt fugiat cupidatat elit cillum duis anim ex duis. Et aliquip aute id ex enim incididunt enim duis nisi enim.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe551c6e2c0cfc5918",
+            "Stock": 13,
+            "Reviews": [
+              {
+                "Rating": 5,
+                "ReviewsText": "Anim tempor voluptate amet laboris minim aliqua in. Nostrud deserunt et veniam dolore dolore ipsum veniam qui duis non nostrud. Aliqua laborum reprehenderit ullamco ut minim culpa. Enim do cillum exercitation sit cupidatat. Eiusmod nisi dolor mollit eiusmod irure. Ipsum aliquip magna est magna ullamco pariatur incididunt do sint reprehenderit minim minim nulla labore. Pariatur consequat ad reprehenderit et mollit ad aute eu nostrud proident do.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Voluptate esse tempor non sit qui fugiat non Lorem in labore officia. In fugiat velit amet magna consectetur in laboris elit ullamco. Sint velit proident ex pariatur id amet magna sunt aliqua adipisicing. Qui proident et et Lorem irure sunt irure et commodo veniam amet. Aute duis dolor deserunt tempor magna minim enim sint sit laboris. Aliqua amet sunt minim ut consequat culpa reprehenderit fugiat amet nulla commodo enim. Sint sint duis cupidatat id excepteur ullamco quis.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe3a644cd3f97f053d",
+            "Stock": 11,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Irure ut officia eu incididunt cupidatat officia proident. Amet ad pariatur laborum eiusmod. Ad pariatur est anim do veniam adipisicing occaecat. Ipsum proident commodo eu elit commodo. Ullamco aliqua sit aliquip dolore ipsum fugiat Lorem culpa et reprehenderit.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Do aliquip esse mollit proident aute irure enim commodo. Eu irure nisi Lorem esse do nulla sint ullamco ut deserunt. Incididunt dolor culpa sit duis. Nisi laboris ex mollit nulla do. Aliqua culpa ipsum duis enim magna proident. Cillum consectetur ullamco labore duis eu velit mollit tempor. Fugiat fugiat sint consequat minim ad cillum incididunt consequat nulla proident et.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbef3446eefb49720f2",
+            "Stock": 13,
+            "Reviews": [
+              {
+                "Rating": 2,
+                "ReviewsText": "Velit in laborum qui do pariatur aute do reprehenderit elit mollit aliqua qui minim. Officia id ut qui labore culpa nostrud. Occaecat reprehenderit ea fugiat pariatur tempor.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Ad elit aliqua ullamco laboris ut ullamco nostrud qui in quis. Excepteur culpa Lorem anim nulla aliqua. Adipisicing ea nulla reprehenderit velit ad aute laborum nulla. Tempor nostrud sint dolor dolor mollit ea reprehenderit culpa eu irure ullamco incididunt. Consectetur nulla ipsum elit aliqua commodo veniam sunt ad eu proident aliquip ad qui. Cillum cillum ullamco sit velit qui cupidatat sunt labore veniam commodo laborum non consectetur anim.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe60131d3316a566b2",
+            "Stock": 15,
+            "Reviews": [
+              {
+                "Rating": 1,
+                "ReviewsText": "Aute sint dolore eiusmod aliquip labore reprehenderit ad incididunt occaecat exercitation amet esse duis. Elit ea ea ut ea. Eiusmod id exercitation in proident voluptate veniam ut Lorem labore magna irure id excepteur. Adipisicing ex culpa duis ea pariatur eu quis voluptate cupidatat aliqua exercitation laborum deserunt. Pariatur dolore do labore aute magna adipisicing ea tempor duis id commodo amet veniam. Magna dolor enim cillum do consectetur aliquip culpa consectetur duis esse incididunt excepteur.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Mollit dolor consectetur in nulla aliqua id sint aliquip laborum. Ex esse laboris esse dolore. Tempor magna in occaecat labore occaecat velit. Magna ea aliqua nulla velit excepteur elit nostrud ea laboris pariatur veniam. Dolor cupidatat deserunt amet eiusmod qui occaecat laboris consectetur esse nostrud eu elit voluptate minim. Esse tempor incididunt dolor ad anim nostrud. Ullamco reprehenderit eiusmod velit qui duis mollit voluptate.\r\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CustomerInfo": "Randall Molina",
+    "Purchases": [
+      {
+        "Product": [
+          {
+            "ShoeID": "5e272bbeb9807e1c07acf816",
+            "Stock": 10,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Ullamco et nisi minim Lorem do incididunt laborum cillum qui anim incididunt. Voluptate voluptate consequat fugiat magna culpa. Commodo labore minim elit incididunt elit quis sit elit eu nulla consequat adipisicing duis voluptate.\r\n"
+              },
+              {
+                "Rating": 3,
+                "ReviewsText": "Nulla sit id nulla duis duis mollit tempor proident aute Lorem et in. Eiusmod ullamco commodo est magna id voluptate esse sunt commodo officia cillum ipsum consequat. Do esse proident nulla ea dolore in. Occaecat officia in commodo nostrud est aliqua. Duis nulla exercitation nostrud qui nulla voluptate et do consequat excepteur proident.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbea2989ca8d4b02a9e",
+            "Stock": 13,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Duis esse occaecat magna anim proident laborum commodo. Cupidatat ad elit id labore proident dolor officia enim do minim laborum sit proident pariatur. Consequat consectetur Lorem adipisicing officia adipisicing qui veniam dolor. Nostrud aliqua cillum aute magna ullamco pariatur sint elit pariatur pariatur tempor aute mollit. Incididunt velit qui laborum non sit fugiat fugiat dolore. Aliqua sint do consectetur aliqua duis sint culpa consequat in exercitation magna ad eu consequat. Officia ex Lorem anim commodo non veniam consequat nisi cupidatat fugiat ea eu dolor culpa.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Ad non esse reprehenderit duis deserunt amet est velit in consectetur. Nostrud nulla cillum tempor commodo officia. Irure ipsum occaecat aute amet eu in pariatur est occaecat sunt nisi. Sint dolor ipsum elit cupidatat dolore elit esse.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbec7130f04db107644",
+            "Stock": 9,
+            "Reviews": [
+              {
+                "Rating": 2,
+                "ReviewsText": "Enim eu exercitation aute qui dolor ut eu. Ex deserunt id adipisicing veniam laborum. Mollit nisi esse consequat minim tempor ut mollit anim deserunt elit.\r\n"
+              },
+              {
+                "Rating": 3,
+                "ReviewsText": "Nulla cillum mollit est incididunt nostrud eu laboris. Ut proident sunt ut reprehenderit ut cupidatat ex tempor est. Aute aliqua fugiat aliqua ipsum ex tempor nulla tempor eiusmod commodo sunt veniam. Adipisicing excepteur magna irure elit velit magna culpa laborum quis. Id officia fugiat duis sit aliqua Lorem qui. Pariatur veniam nulla aute aute ex enim.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe698f359d3a8f70b6",
+            "Stock": 8,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Qui voluptate veniam magna deserunt nostrud est pariatur non exercitation. Exercitation sit sunt minim pariatur in laborum aliqua veniam labore. Adipisicing labore incididunt elit voluptate. Culpa eu Lorem dolor quis minim culpa ad dolor in nulla nulla. Cupidatat proident duis dolore quis sit pariatur occaecat enim dolore exercitation velit veniam.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Pariatur non sint sint aliquip consectetur qui labore laboris reprehenderit. Esse amet nisi amet sint mollit sint. Occaecat nulla consectetur in esse minim consequat ut do. Labore quis eiusmod ad ut duis. Labore officia elit anim non et ut esse aliquip minim elit. Et in aute officia elit elit est laborum duis aliqua ad.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbec65c11fedcd3f860",
+            "Stock": 13,
+            "Reviews": [
+              {
+                "Rating": 1,
+                "ReviewsText": "Laborum sit dolor ad labore Lorem occaecat proident dolor velit excepteur. Pariatur pariatur excepteur laboris Lorem amet elit nulla mollit ex aliqua proident id. Laboris minim ad laboris amet voluptate ea voluptate velit aute cillum sunt voluptate consequat mollit. Sit et mollit ea nostrud duis cupidatat consectetur.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Nisi ipsum do fugiat dolore culpa aute pariatur adipisicing. Mollit ad deserunt irure pariatur officia excepteur quis excepteur pariatur magna. Dolore deserunt adipisicing sunt minim consequat deserunt ut id. Nulla reprehenderit ut cupidatat et anim aliquip consectetur veniam duis aute aute est.\r\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CustomerInfo": "Downs Matthews",
+    "Purchases": [
+      {
+        "Product": [
+          {
+            "ShoeID": "5e272bbeae45a227b71a2fbd",
+            "Stock": 11,
+            "Reviews": [
+              {
+                "Rating": 5,
+                "ReviewsText": "Ad deserunt enim occaecat amet consequat et labore aliqua. Ea dolore commodo quis eiusmod reprehenderit. Adipisicing exercitation Lorem dolore commodo cupidatat sunt dolore magna ut. Occaecat reprehenderit cillum excepteur velit anim anim sint non Lorem consectetur irure. Labore non adipisicing cillum esse adipisicing consectetur duis dolor exercitation. Laborum laborum culpa qui dolore ad.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Occaecat laborum aliquip laborum nisi laboris ullamco quis non do dolor sit. Voluptate consectetur velit elit anim dolor occaecat elit. Occaecat commodo ullamco eu dolore excepteur nulla dolore quis ullamco est dolor eu aute.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbee8e3c0cfd0bb2c91",
+            "Stock": 15,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Sunt ipsum minim voluptate cillum mollit exercitation elit irure ea aute sunt exercitation. Eiusmod irure consectetur occaecat elit. Non ea sint ipsum nisi occaecat labore non ullamco est non proident. Fugiat laboris sint est non. Tempor pariatur nisi mollit et commodo occaecat laborum velit. Minim aliquip ut exercitation minim exercitation duis enim. Elit commodo sint sit nulla ea.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Sunt culpa id id occaecat do voluptate. Ipsum incididunt et eu amet in ullamco dolor nisi cillum irure irure. Nostrud ut occaecat tempor nulla pariatur nulla. Et excepteur minim velit Lorem in esse irure velit Lorem consequat nulla. Ullamco cupidatat proident nostrud aliqua dolor mollit deserunt tempor ut laboris aute dolore cupidatat. Ad in magna proident non deserunt aliquip. Duis elit est veniam incididunt enim aliquip adipisicing mollit elit sint.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe6bb4f4cb21af3092",
+            "Stock": 8,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Mollit ipsum ipsum aute consectetur culpa et ut eu. Irure excepteur id anim nostrud mollit est labore aliquip. Culpa culpa occaecat id ullamco pariatur nostrud aliqua ipsum. Ipsum tempor aliqua sunt qui voluptate nisi anim et. Ea ullamco aute id ut. Excepteur est in reprehenderit et nulla mollit ut amet veniam ex anim sunt exercitation ut. Amet cupidatat elit magna ex pariatur aute enim nulla labore id eiusmod.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Labore do ex ea officia. Cillum culpa labore anim eiusmod pariatur nostrud culpa excepteur magna pariatur elit ipsum. Cillum eiusmod aute ex excepteur do consequat sunt ipsum dolor veniam cupidatat deserunt ad anim. Ex adipisicing veniam ex irure Lorem Lorem exercitation dolor in anim dolore aliqua. Elit Lorem officia mollit reprehenderit proident commodo Lorem in.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbefe84589f5e8a6d03",
+            "Stock": 11,
+            "Reviews": [
+              {
+                "Rating": 1,
+                "ReviewsText": "Eiusmod cillum labore culpa do adipisicing ad minim occaecat cupidatat ad qui. Id et est duis anim deserunt ea dolor ex duis enim exercitation qui ullamco. Sint veniam eu duis aliqua commodo exercitation laboris voluptate adipisicing consectetur aliquip deserunt est. Cillum qui labore nulla labore officia consequat aute nisi non velit in nisi labore.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Qui amet tempor duis ut quis in culpa ipsum dolor. Proident incididunt dolor sunt excepteur minim nisi consequat. Ad labore amet nisi sit ipsum.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe30db1fb60cb59825",
+            "Stock": 12,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Esse excepteur cupidatat id occaecat pariatur veniam dolore. Excepteur enim ullamco tempor occaecat irure nisi sit. Amet magna consequat officia adipisicing dolore excepteur amet consectetur voluptate. Non nostrud officia culpa nulla. Ut eiusmod adipisicing id fugiat dolore.\r\n"
+              },
+              {
+                "Rating": 4,
+                "ReviewsText": "Est do enim duis labore consequat et esse. Laborum deserunt irure nulla reprehenderit ea. Adipisicing occaecat et velit sint ut aliquip nostrud velit adipisicing labore culpa duis. Proident minim ullamco sint consequat ea sint cillum est elit ea amet non nostrud fugiat. Et consectetur laborum duis anim cupidatat ut elit aute aliqua sint aliqua irure ea. Aliquip fugiat esse sit consequat nisi. Excepteur mollit dolor ea nisi officia laboris sit cupidatat reprehenderit officia aliqua duis ipsum.\r\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CustomerInfo": "Jean Berger",
+    "Purchases": [
+      {
+        "Product": [
+          {
+            "ShoeID": "5e272bbe5e3dd7a81434582b",
+            "Stock": 13,
+            "Reviews": [
+              {
+                "Rating": 1,
+                "ReviewsText": "Qui irure officia ut aliquip exercitation incididunt laborum id quis. Reprehenderit culpa ipsum occaecat aute eu cillum Lorem reprehenderit labore aliquip quis. Cupidatat qui et dolore ut et consequat irure sunt tempor do. Est elit ipsum aliqua ea ea in nisi irure duis officia culpa. Et consectetur cupidatat occaecat ex ea laboris deserunt id quis eiusmod laboris consequat veniam enim. Occaecat id do Lorem fugiat exercitation do irure dolor. Eu sunt ipsum commodo fugiat commodo commodo cillum aliquip in ipsum eu proident.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Eiusmod labore proident do Lorem officia ullamco nostrud mollit minim deserunt officia labore. Et officia irure est culpa duis consequat exercitation ad occaecat anim. Mollit irure deserunt culpa non sint nulla amet. Aliqua est do dolor commodo anim.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe55dc5077ced84cf3",
+            "Stock": 10,
+            "Reviews": [
+              {
+                "Rating": 5,
+                "ReviewsText": "Voluptate aute ullamco quis ad nostrud aliqua aliquip veniam ex irure nulla aliquip minim nisi. Incididunt duis veniam Lorem ullamco labore adipisicing eu commodo in fugiat nisi. Excepteur pariatur ullamco voluptate veniam irure nostrud labore amet officia mollit. Do nostrud cupidatat pariatur aute amet cillum excepteur aute duis ea ipsum adipisicing officia. Labore tempor in qui veniam ipsum eiusmod non tempor exercitation dolor ipsum.\r\n"
+              },
+              {
+                "Rating": 5,
+                "ReviewsText": "Amet ut sunt in non commodo. Magna duis dolor dolore occaecat occaecat fugiat voluptate anim deserunt. Duis sunt sit est duis veniam commodo fugiat ea ut. Et reprehenderit minim deserunt Lorem ex adipisicing sit sunt proident non enim officia. Lorem et fugiat esse eiusmod ut dolor.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe02a4c995af9ad840",
+            "Stock": 11,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Cillum officia magna duis in labore commodo. Officia consequat officia qui elit fugiat qui irure officia labore anim ut. Magna sunt dolor est tempor enim qui consequat minim Lorem exercitation fugiat reprehenderit aute. Cillum pariatur cupidatat proident et veniam exercitation et consectetur voluptate nisi qui ex. Sunt in do id duis fugiat Lorem cupidatat anim dolor deserunt sunt eu enim. Amet do ad quis non laboris occaecat eu eu esse quis nulla. Non aliqua qui anim quis.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Labore ad ad anim occaecat. Sint nisi consectetur ea pariatur eiusmod dolor ullamco exercitation nostrud enim consectetur occaecat. Enim veniam eiusmod est adipisicing veniam magna cupidatat tempor irure. Ex deserunt mollit culpa velit cillum voluptate cupidatat cupidatat commodo nostrud consectetur voluptate mollit. Nostrud sint exercitation ad quis tempor elit culpa cillum consectetur veniam excepteur cupidatat Lorem sit. Pariatur anim ad dolore nostrud amet dolore cupidatat consequat fugiat.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbec197dd64cb03cc13",
+            "Stock": 15,
+            "Reviews": [
+              {
+                "Rating": 3,
+                "ReviewsText": "Magna labore laborum eu mollit ea elit non sint labore quis magna exercitation magna fugiat. Consectetur nulla eiusmod adipisicing laboris minim ad dolor in ea elit ullamco commodo anim enim. Cillum duis ipsum non duis ut enim minim anim labore id enim fugiat excepteur. Adipisicing fugiat nisi esse ullamco est aliqua non excepteur quis. Ex tempor qui aliqua et duis Lorem labore. Nisi excepteur officia minim laborum do duis. Excepteur eiusmod dolor dolore sunt non cillum ipsum.\r\n"
+              },
+              {
+                "Rating": 3,
+                "ReviewsText": "Labore adipisicing aute in pariatur sunt consequat Lorem. Nisi ad duis cillum est sint non nulla ipsum quis duis aute. Lorem veniam dolor esse occaecat ipsum aute. Esse anim dolore in occaecat id anim veniam ad sint occaecat laborum anim velit irure. Velit non ea cupidatat in aliqua labore quis cupidatat ipsum mollit dolore. Nostrud cupidatat voluptate dolore enim minim nulla pariatur esse culpa et occaecat laborum.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe303f955aa04d1ac5",
+            "Stock": 9,
+            "Reviews": [
+              {
+                "Rating": 1,
+                "ReviewsText": "Irure laboris qui commodo cupidatat consectetur minim laborum ex ullamco cillum est veniam dolor anim. Aute fugiat irure fugiat dolore quis adipisicing eiusmod voluptate tempor excepteur sit. Sunt ea ullamco labore eiusmod minim ipsum dolor officia aute. Non deserunt velit consectetur labore id occaecat ex ea dolore. Deserunt occaecat cupidatat ullamco eiusmod sunt ullamco cillum proident. Proident aliquip veniam pariatur laborum et sit laboris sint proident.\r\n"
+              },
+              {
+                "Rating": 3,
+                "ReviewsText": "Eu consectetur mollit culpa dolor eiusmod ullamco consequat elit magna do Lorem. Aliquip pariatur occaecat et elit incididunt ullamco cupidatat id duis ex anim sunt officia in. Quis velit laborum nisi officia ut sit ut eu ex proident ex aliquip sit. Proident proident sit velit in anim do. Nisi ipsum duis dolor laborum eu qui exercitation sit nulla Lorem velit reprehenderit cillum sunt. Id id commodo esse reprehenderit. Id dolore ex reprehenderit anim consectetur dolor amet.\r\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CustomerInfo": "Phyllis Burks",
+    "Purchases": [
+      {
+        "Product": [
+          {
+            "ShoeID": "5e272bbe0e79c993dc215afe",
+            "Stock": 10,
+            "Reviews": [
+              {
+                "Rating": 1,
+                "ReviewsText": "Eiusmod quis laborum mollit incididunt elit. Laborum consequat cillum exercitation id labore aliqua ut et ea cillum proident veniam do. Voluptate tempor commodo dolore sit anim qui enim irure est magna duis sunt. Ullamco ea aliqua nisi consectetur esse laborum irure.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Nisi adipisicing sit nostrud incididunt dolore labore. Sunt minim cillum cupidatat exercitation mollit. Nisi sunt aliqua exercitation dolore ea veniam consequat laboris adipisicing culpa velit irure.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbebf43d57b36b43395",
+            "Stock": 8,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Exercitation irure in aliquip quis velit ex tempor aliqua ad. Magna excepteur laboris irure dolor laboris ad excepteur laborum ad voluptate duis officia. Consequat qui in tempor ipsum esse eiusmod esse veniam Lorem. Qui dolor occaecat mollit ad proident ut excepteur aute nisi esse nisi.\r\n"
+              },
+              {
+                "Rating": 3,
+                "ReviewsText": "Elit commodo adipisicing consectetur qui eu cupidatat laboris. Consectetur Lorem pariatur cupidatat tempor ut laborum tempor cillum enim aliquip. Sunt dolor laborum exercitation ex laborum est consequat commodo cillum. Ut dolore enim ullamco dolor mollit dolor voluptate ullamco nisi minim elit ex voluptate.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbeaf074de0e691da28",
+            "Stock": 13,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Cillum aliquip nisi ad aliquip. Nisi sint cupidatat deserunt qui qui ex nostrud aliquip ad incididunt Lorem. Sint nulla et enim incididunt anim.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Pariatur fugiat excepteur proident mollit voluptate dolor magna in. Esse sint laborum do laborum voluptate proident est laboris ipsum proident laboris. In voluptate sunt sint est veniam aute sint et nulla cillum aliquip dolor consequat. Velit ad fugiat dolore et voluptate. Enim ipsum laboris minim minim reprehenderit in in reprehenderit amet velit in laboris.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe6c784ea5fcd8bfee",
+            "Stock": 9,
+            "Reviews": [
+              {
+                "Rating": 5,
+                "ReviewsText": "Amet sunt excepteur proident sit ea amet sint sint voluptate pariatur dolore. Veniam cupidatat reprehenderit exercitation culpa fugiat non nisi consequat sint voluptate nostrud consequat. Veniam reprehenderit nulla occaecat sunt culpa. Eiusmod nostrud commodo officia consequat enim. Labore cupidatat irure tempor sunt duis sint. Et velit occaecat nulla elit exercitation tempor cupidatat enim. Occaecat non occaecat qui eiusmod.\r\n"
+              },
+              {
+                "Rating": 2,
+                "ReviewsText": "Dolore non ipsum nisi et cillum ullamco ea duis dolore culpa nostrud anim occaecat eu. Aliquip exercitation sint ut minim minim reprehenderit dolor ipsum irure. Occaecat nisi aliquip sint consectetur dolore pariatur nisi enim non. Elit ea in occaecat esse enim.\r\n"
+              }
+            ]
+          },
+          {
+            "ShoeID": "5e272bbe7e7874720ca3977d",
+            "Stock": 14,
+            "Reviews": [
+              {
+                "Rating": 4,
+                "ReviewsText": "Ad amet do ut sit Lorem officia consectetur. Enim et laborum ut labore veniam ipsum elit eiusmod amet laboris dolore aute officia. Cillum ipsum anim est non sint nulla sunt. Ea quis irure sint culpa incididunt elit. Ad consectetur reprehenderit incididunt incididunt consequat ex ex ipsum occaecat nulla sint dolore labore aliquip. Aliqua eu voluptate dolore sunt nulla sunt enim.\r\n"
+              },
+              {
+                "Rating": 1,
+                "ReviewsText": "Mollit labore non cillum sint. Ipsum laborum eu commodo incididunt eu nisi occaecat sint sint tempor. Cupidatat cillum laboris sunt dolore ut. Cupidatat in culpa deserunt et consectetur mollit enim nostrud amet proident ut qui.\r\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

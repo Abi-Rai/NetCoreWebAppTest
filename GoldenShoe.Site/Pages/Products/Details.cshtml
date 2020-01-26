@@ -1,0 +1,98 @@
+﻿@page
+@model GoldenShoe.Site.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+@*  If valid ID is passed do  *@
+@if (Model.validId == true)
+{
+
+    @*-------------TODO Move style to Css file after editing --------------*@
+    <style>
+        .wrapper {
+            background: #eee;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-auto-rows: minmax(100px,auto);
+            grid-gap: 1em;
+        }
+
+            .wrapper > div {
+                padding: 1em;
+            }
+
+        .image-box {
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+
+        .product-description-box {
+            background-color: #808080;
+            align-items: center;
+            grid-column: 2;
+            grid-row: 1/3;
+        }
+
+        .product-promo {
+            grid-column: 1/3;
+        }
+    </style>
+
+    <div class="wrapper">
+        <div class="image-box">
+            <figure>
+                <img src="@Model.shoeSelectedDB.ImgUrl" />
+            </figure>
+        </div>
+        <div class="product-description-box">
+
+            <h3>@Model.shoeSelectedDB.Name</h3>
+            <section class="product-description">
+                <ul style="font-size:1.1em;">
+                    <li>Details: @Model.shoeSelectedDB.Name2</li>
+                    <li>Brand: @Model.shoeSelectedDB.Brand</li>
+                    <li>Variant: @Model.shoeSelectedDB.Variant</li>
+                </ul>
+                <div>
+                    @if (Model.shoeSelectedDB.OnSale == "True")
+                    {
+                        <span class="font-weight-bold" style="font-size:1.7em;"><strike>£@Model.shoeSelectedDB.original_price</strike><span style="color:red"> £@Model.shoeSelectedDB.Price</span></span>
+                    }
+                    else
+                    {
+                        <span class="font-weight-bold" style="font-size:1.7em;">£@Model.shoeSelectedDB.Price</span>
+                    }
+                </div>
+
+                <p>Select Size</p>
+
+                <h4>Stock: @Model.shoeSelectedDB.Stock</h4>
+
+                @if (Model.shoeSelectedDB.Stock <= 0)
+                {
+                    <h3 class="text-danger">Product is out of stock!</h3>
+                }
+                else
+                {
+                    <a asp-page="/cart" asp-page-handler="BuyNow" asp-route-id="@Model.shoeSelectedDB.ShoeID">
+                        <button class="btn-primary">Buy Now</button>
+                    </a>
+                }
+
+            </section>
+        </div>
+        <div class="product-promo">
+            <h4>Product promo image placeholder</h4>
+            <svg width="620" height="200" style="background:#9b9999">
+                <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" />
+                <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" x="210" />
+                <rect width="200" height="200" style="fill:rgb(101, 99, 99);stroke-width:3;stroke:black" x="420" />
+            </svg>
+        </div>
+    </div>
+}
+
