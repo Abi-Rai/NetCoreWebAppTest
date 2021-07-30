@@ -142,61 +142,6 @@ namespace GoldenShoe.Site.Services
         public Product GetSelectedProduct(string shoeID)
         {
             return selectedProduct = db.Products.Where(e => e.ShoeID == shoeID).FirstOrDefault();
-        }
-
-        // ----------- NOTImplemented use AddToCart method on db service --------- 
-
-        //private List<CartItem> cartItems;
-
-        //public void AddToCartOnly(string id,ISession session)
-        //{
-        //    IEnumerable<Product> productModel = GetProducts();
-
-        //    var value = session.GetString(CartSessionKey);
-        //    cartItems = value == null ? default(List<CartItem>) : JsonConvert.DeserializeObject<List<CartItem>>(value);
-        //    if (cartItems == null)
-        //    {
-        //        cartItems = new List<CartItem>();
-        //        cartItems.Add(new CartItem
-        //        {
-        //            Product = productModel.Where(p => p.ShoeID == id).FirstOrDefault(),
-        //            Quantity = 1,
-        //            CartId = session.Id,
-        //            ShoeId = id
-        //        });
-        //        session.SetString(CartSessionKey, JsonConvert.SerializeObject(cartItems));
-        //    }
-        //    else
-        //    {
-        //        int index = Exists(cartItems, id);
-        //        if (index == -1)
-        //        {
-        //            cartItems.Add(new CartItem
-        //            {
-        //                Product = productModel.Where(p => p.ShoeID == id).FirstOrDefault(),
-        //                Quantity = 1,
-        //                CartId = session.Id,
-        //                ShoeId = id
-        //            });
-        //        }
-        //        else
-        //        {
-        //            cartItems[index].Quantity++;
-        //        }
-        //        session.SetString(CartSessionKey, JsonConvert.SerializeObject(cartItems));
-        //    }
-
-        //    int Exists(List<CartItem> cart, string id)
-        //    {
-        //        for (var i = 0; i < cart.Count; i++)
-        //        {
-        //            if (cart[i].Product.ShoeID == id)
-        //            {
-        //                return i;
-        //            }
-        //        }
-        //        return -1;
-        //    }
-        //}
+        }       
     }
 }
